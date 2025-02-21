@@ -17,11 +17,14 @@
 
 
   html, body,.header-container {
-    background-color: wheat;
-    height: 50px;
+    background-color: #FBE690;
+    opacity: 100%;
+    font-family: 'Barlow',sans-serif;
+    /* height: 50px; */
  }
  .nav-container, .header-container nav {
-    background-color: whitesmoke;
+    background-color: #FFFFFF;
+    opacity: 100%;
  }
  nav {
     height: 80px;
@@ -50,17 +53,54 @@
     color: black;
  }
  #crust {
-    color: orangered;
+    font-family: 'Barlow',serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #DD2803;
  }
  .bi-star-fill {
     position: relative;
     left: -10px;
     top: -10px
  }
- .header-p {
+ .header-p  {
     margin-top: 10px;
     font-size: 52px;
+    font-weight: 500;
     font-family: 'Barlow', serif;
-    
  }
- 
+ h1 {
+    font-family: 'Barlow', serif;
+    font-size: 120px;
+    color: #DD2803;
+ }
+#home {
+    color: #DD2803;
+}
+button {
+    width: 200px;
+    height: 60px;
+}
+.section {
+    background-color: #f9f2ea;
+    opacity: 100%;
+}
+.section .col-4 {
+    background-color: #FFFFFF;
+    opacity: 100%;
+}
+.section .row {
+    margin-top: 100px;
+}
+div.my-3 {
+    font-size: 22px;
+}
+.my-3~p {
+    font-size: 18px;
+}
+/* .section .row .col-4 {
+    border: 1px solid black;
+} */
+ .card {
+    background-color: #F9F2EA;
+ }
